@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="st.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <title>Newsletter sign-up form with success message</title>
+
+ 
+</head>
+
+<body  style="background-color: #36384d;height:60em;" class="min-h-screen grid place-items-center ">
+  <main>
+    <!-- this is a first container -->
+   <div id="div1" style="height: 34em; position: relative; width: 50em; display: block;" class="bg-white   z-10 rounded-3xl">
+    <h1 class="font-semibold top-12 text-5xl relative left-16">Stay updated!</h1>
+    <p class="text-sm relative left-16 top-20">  Join 60,000+ product managers receiving monthly <br> updates on:
+    </p>
+    
+    <p class="text-sm relative left-20 top-24">Product discovery and building matters</p>
+    <br>
+    <p class="text-sm relative left-20 top-24">Measuring to ensure updates are a success</p>
+    <br>
+    <p class="text-sm relative left-20 top-24">And much more!</p>
+    <p class="text-xs font-semibold relative left-16 top-28">Email address</p>
+    
+    <input type="text" id="emailInput" placeholder="email@company.com" class="border h-10 cursor-pointer relative font-serif border-gray-300 top-36 left-16 w-80 pl-5 rounded-lg ">
+    <br>
+    <button id="button1" style="background-color: #232742;" class="hover:bg-gradient-to-r from-pink-500 to-orange-400 text-white h-10 relative top-44 left-16 pt-1 pl-7 rounded-lg w-80 hover:cursor-pointer font-semibold">Subscribe to monthly newsletter</button>
+    <img src="icon-list.svg" id="logo" class="relative left-14 mt-5 bottom-32 ">
+    <img src="icon-list.svg" id="logo" class="relative left-14 mt-5 bottom-32">
+    <img src="icon-list.svg" id="logo" class="relative left-14 mt-6 bottom-32">
+    <img style="height: 32em;" class=" top-4 absolute right-6 rounded" src="illustration-sign-up-desktop.svg" alt="desktop-image">
+   </div>
+
+   <!-- this is a second container -->
+   <div id="div2" style="height: 34em; position:relative; width: 30em; display: none;" class="bg-white rounded-3xl z-10">
+    <img src="icon-list.svg" alt="icon" class="h-16 relative left-14 top-14">
+     <h1 class="font-medium text-5xl relative top-20 left-14">Thanks for <br> subscribing!</h1>
+    <p class="text-sm leading-7  relative top-28 left-14">
+      <br>
+      A confirmation email has been sent to <br> <b> ash@loremcompany.com.</b>
+      Please open it and click <br> the button inside to confirm your subscription.</p> 
+      <div id="button2" style="background-color:#232742 ;" class="hover:bg-gradient-to-r from-pink-500 to-orange-400 text-white h-10 relative top-44 left-16 pt-2 pl-24 rounded-lg w-80 hover:cursor-pointer font-semibold">Dismiss message</div>
+   </div>
+  </main>
+ <script src="script.js"></script>
+</body>
+</html>
